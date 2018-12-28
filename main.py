@@ -18,7 +18,7 @@ import webapp2
 
 class MainHandler(webapp2.RequestHandler):
     def get(self):
-     self.redirect("https://www.rosegal.com/", True)
+     self.redirect("https://jbirdie.com/ads.php?key=why-rosegal", True)
 		# and this is the main code
 
 app = webapp2.WSGIApplication([
